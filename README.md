@@ -15,6 +15,31 @@ An open-source Android screen recorder application built with Kotlin, supporting
 - **Proper Permissions**: Runtime permission handling for audio and notifications
 - **MP4 Output**: Videos saved in MP4 format with H.264 video codec
 
+## Quick Start
+
+**New to the app?** Check out the [Quick Start Guide](QUICKSTART.md) for step-by-step instructions!
+
+```
+1. Install the app
+2. Select audio source (Internal/Microphone/None)
+3. Tap "Start Recording"
+4. Accept permissions
+5. Stop when done
+6. Find your recording in Gallery or Movies/ScreenRecordings
+```
+
+## Documentation
+
+- 📖 [Quick Start Guide](QUICKSTART.md) - Get started in 5 minutes
+- 📚 [API Documentation](API.md) - Technical API reference
+- 🔧 [Development Guide](DEVELOPMENT.md) - Setup and development
+- 🧪 [Testing Guide](TESTING.md) - Testing procedures
+- 🏗️ [Architecture](ARCHITECTURE.md) - System design and architecture
+- 🔒 [Privacy Policy](PRIVACY.md) - Privacy and security information
+- ❓ [FAQ](FAQ.md) - Frequently asked questions
+- 🤝 [Contributing](CONTRIBUTING.md) - How to contribute
+- 📝 [Changelog](CHANGELOG.md) - Version history
+
 ## Requirements
 
 - Android 11+ (API level 29+)
@@ -97,10 +122,47 @@ cd screen-recorder-
 - **Audio Bitrate**: 128 kbps
 - **Audio Sample Rate**: 44.1 kHz
 
-## License
+## Screenshots
 
-Open source - feel free to use and modify for your projects.
+*Coming soon - screenshots will be added once the app is tested on a physical device*
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## Privacy
+
+This app:
+- ✅ Stores all data locally on your device
+- ✅ Has NO analytics or tracking
+- ✅ Has NO advertisements
+- ✅ Sends NO data to external servers
+- ✅ Is completely open source
+
+Read our full [Privacy Policy](PRIVACY.md) for details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+- 📋 [Report a Bug](https://github.com/techdiwas/screen-recorder-/issues/new?labels=bug)
+- 💡 [Request a Feature](https://github.com/techdiwas/screen-recorder-/issues/new?labels=enhancement)
+- ❓ [Ask a Question](https://github.com/techdiwas/screen-recorder-/issues/new?labels=question)
+
+## Acknowledgments
+
+- Built with Android's MediaProjection API
+- Uses Material Design Components
+- Inspired by the need for a simple, privacy-focused screen recorder
+
+---
+
+**Made with ❤️ by the open source community**
